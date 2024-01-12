@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "DRV8835")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/DRV8835/KiCADv6/2024-01-11_22-52-42.kicad_sym")(options "")(descr ""))
 )
