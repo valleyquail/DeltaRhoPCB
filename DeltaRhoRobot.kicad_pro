@@ -457,6 +457,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -475,6 +483,10 @@
     [
       "ff44b13b-7cc8-487d-9bdf-cc68eec5ba2f",
       "Pico"
+    ],
+    [
+      "5eb80655-957d-4a1c-8d7d-b2e173715026",
+      "ESP32-S3-WROOM-1"
     ]
   ],
   "text_variables": {}
