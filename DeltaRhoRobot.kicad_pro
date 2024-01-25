@@ -426,7 +426,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "DeltaRhoRobot.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -456,7 +456,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {
@@ -487,6 +487,14 @@
     [
       "5eb80655-957d-4a1c-8d7d-b2e173715026",
       "ESP32-S3-WROOM-1"
+    ],
+    [
+      "b72e047d-6874-46de-bfdb-cff5124484f7",
+      "IMU"
+    ],
+    [
+      "ba807c80-2a51-4f5f-8aa4-02e2ddffef6a",
+      "ESP32CAM"
     ]
   ],
   "text_variables": {}

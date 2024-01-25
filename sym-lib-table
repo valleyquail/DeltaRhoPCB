@@ -2,5 +2,7 @@
   (version 7)
   (lib (name "DRV8835")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/DRV8835/KiCADv6/2024-01-11_22-52-42.kicad_sym")(options "")(descr ""))
   (lib (name "ABMG8_12")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/abm8g/ABM8G-12.000MHZ-4Y-T3.kicad_sym")(options "")(descr ""))
-  (lib (name "JST-ZH")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/JST-ZR/2024-01-17_22-00-17.kicad_sym")(options "")(descr ""))
+  (lib (name "JST-ZH")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/JST-ZR/2024-01-24_20-00-15.kicad_sym")(options "")(descr ""))
+  (lib (name "5051102491")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/CSI_Connector/5051102491.kicad_sym")(options "")(descr "CSI_Connector"))
+  (lib (name "ESP32-CAM")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/esp32-cam/ESP32-CAM.kicad_sym")(options "")(descr ""))
 )
