@@ -772,12 +772,6 @@
   (junction (at 115.57 130.175) (diameter 0) (color 0 0 0 0)
     (uuid 22daa67a-dae5-4569-9d8a-fa1e02417962)
   )
-  (junction (at 129.54 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid 420a4481-edc2-4054-8a54-5fd14a58c47e)
-  )
-  (junction (at 129.54 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid 5a59a9f9-f033-449f-b4cc-fd39b5cd7013)
-  )
   (junction (at 129.54 36.83) (diameter 0) (color 0 0 0 0)
     (uuid 9fd255ed-5f2d-4618-aed7-4f960c62b86c)
   )
@@ -834,10 +828,6 @@
     (stroke (width 0) (type default))
     (uuid 03f28b44-c77b-42c4-9eae-ee2764d13964)
   )
-  (wire (pts (xy 129.54 46.99) (xy 129.54 52.07))
-    (stroke (width 0) (type default))
-    (uuid 08d53b89-abd4-4818-8e2b-fd20a663b21f)
-  )
   (wire (pts (xy 123.19 46.99) (xy 129.54 46.99))
     (stroke (width 0) (type default))
     (uuid 103df948-8b92-4f6d-bb18-16e0a99728a5)
@@ -878,7 +868,7 @@
     (stroke (width 0) (type default))
     (uuid 309a87e8-336d-43b2-a78e-a9785649e63a)
   )
-  (wire (pts (xy 129.54 36.83) (xy 129.54 44.45))
+  (wire (pts (xy 129.54 36.83) (xy 129.54 52.07))
     (stroke (width 0) (type default))
     (uuid 32f68f20-a6ad-4271-9eb6-8a2ee949697b)
   )
@@ -897,10 +887,6 @@
   (wire (pts (xy 113.03 133.985) (xy 115.57 133.985))
     (stroke (width 0) (type default))
     (uuid 4517e2f2-b4d2-42f5-92b4-a0d6086991b0)
-  )
-  (wire (pts (xy 129.54 44.45) (xy 129.54 46.99))
-    (stroke (width 0) (type default))
-    (uuid 4807ce44-6fc2-4e50-9559-76a1129e0b19)
   )
   (wire (pts (xy 57.15 45.085) (xy 48.26 45.085))
     (stroke (width 0) (type default))
@@ -1192,7 +1178,7 @@
   (symbol (lib_id "power:+3.3V") (at 130.175 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0193a680-d289-4c95-88af-1a0ff8734769)
-    (property "Reference" "#PWR0101" (at 130.175 138.43 0)
+    (property "Reference" "#PWR0105" (at 130.175 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 126.365 133.985 0)
@@ -1208,7 +1194,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -1217,7 +1203,7 @@
   (symbol (lib_id "power:Earth") (at 113.665 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01ddcda9-84ab-4318-95f8-a79a81ed262e)
-    (property "Reference" "#PWR094" (at 113.665 65.405 0)
+    (property "Reference" "#PWR098" (at 113.665 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 113.665 62.865 0)
@@ -1233,7 +1219,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -1242,7 +1228,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 110.49 130.175 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11639fa3-6c6b-4ea4-9680-968af1b4ac6c)
-    (property "Reference" "SW6" (at 110.49 121.92 0)
+    (property "Reference" "SW5" (at 110.49 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 110.49 124.46 0)
@@ -1259,7 +1245,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "SW6") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -1268,7 +1254,7 @@
   (symbol (lib_id "power:Earth") (at 105.41 133.985 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13d5e87e-efc5-4fc5-9f31-c354a91a914c)
-    (property "Reference" "#PWR0100" (at 105.41 140.335 0)
+    (property "Reference" "#PWR0104" (at 105.41 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 105.41 137.795 0)
@@ -1284,7 +1270,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1334,7 +1320,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 133.985 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bd1e67e-99f9-4c40-a23c-833fc55896f4)
-    (property "Reference" "C28" (at 113.665 137.16 90)
+    (property "Reference" "C29" (at 113.665 137.16 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 113.665 139.065 90)
@@ -1351,7 +1337,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "C28") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -1360,7 +1346,7 @@
   (symbol (lib_id "power:Earth") (at 118.11 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d0f5841-43ff-413b-b7f8-8f1dbe331222)
-    (property "Reference" "#PWR098" (at 118.11 129.54 0)
+    (property "Reference" "#PWR0102" (at 118.11 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 118.11 127 0)
@@ -1376,7 +1362,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -1385,7 +1371,7 @@
   (symbol (lib_id "Device:C_Small") (at 129.54 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25ff8288-672e-4cc0-a1f4-9e64f99ebe33)
-    (property "Reference" "C27" (at 125.095 59.69 0)
+    (property "Reference" "C28" (at 125.095 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 123.19 61.595 0)
@@ -1402,7 +1388,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "C27") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -1411,7 +1397,7 @@
   (symbol (lib_id "Device:C_Small") (at 113.665 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c9f432b-04bd-4f06-93ab-d10e1cee1803)
-    (property "Reference" "C26" (at 118.745 57.785 0)
+    (property "Reference" "C27" (at 118.745 57.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47pF" (at 120.65 55.88 0)
@@ -1428,7 +1414,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "C26") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1437,7 +1423,7 @@
   (symbol (lib_id "power:Earth") (at 129.54 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 307ca3f4-80d8-4db9-9bf9-464e2e2ea59b)
-    (property "Reference" "#PWR095" (at 129.54 69.215 0)
+    (property "Reference" "#PWR099" (at 129.54 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 129.54 66.675 0)
@@ -1453,7 +1439,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -1462,7 +1448,7 @@
   (symbol (lib_id "power:Earth") (at 156.845 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 308711da-abb4-4915-8a11-18c6ee1567ed)
-    (property "Reference" "#PWR097" (at 156.845 81.915 0)
+    (property "Reference" "#PWR0101" (at 156.845 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 156.845 79.375 0)
@@ -1478,7 +1464,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -1531,7 +1517,7 @@
   (symbol (lib_id "Device:C_Small") (at 132.08 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d174e46-3f40-486a-8e49-cf016a95dd8b)
-    (property "Reference" "C24" (at 134.62 22.2313 0)
+    (property "Reference" "C25" (at 134.62 22.2313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 134.62 24.7713 0)
@@ -1548,7 +1534,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "C24") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -1557,7 +1543,7 @@
   (symbol (lib_id "power:Earth") (at 109.22 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 555768c4-3444-4295-b35b-12c6ab550649)
-    (property "Reference" "#PWR093" (at 109.22 65.405 0)
+    (property "Reference" "#PWR097" (at 109.22 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 109.22 62.865 0)
@@ -1573,7 +1559,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -1582,7 +1568,7 @@
   (symbol (lib_id "power:Earth") (at 64.77 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7839c957-d522-438a-b407-16b1f88b4e7d)
-    (property "Reference" "#PWR091" (at 64.77 52.705 0)
+    (property "Reference" "#PWR095" (at 64.77 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 64.77 50.165 0)
@@ -1598,7 +1584,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -1723,7 +1709,7 @@
   (symbol (lib_id "Device:C_Small") (at 109.22 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1e42a65-e7c6-4e25-a814-3e70fe31091c)
-    (property "Reference" "C25" (at 103.505 53.34 0)
+    (property "Reference" "C26" (at 103.505 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47pF" (at 102.235 55.88 0)
@@ -1740,7 +1726,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "C25") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1749,7 +1735,7 @@
   (symbol (lib_id "power:Earth") (at 132.08 27.305 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b84f8fc4-3b45-46f6-9d8f-2e98e2357e37)
-    (property "Reference" "#PWR090" (at 132.08 33.655 0)
+    (property "Reference" "#PWR094" (at 132.08 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 132.08 31.115 0)
@@ -1765,7 +1751,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -1800,7 +1786,7 @@
   (symbol (lib_id "power:Earth") (at 41.91 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9ed0df8-27cc-49ad-b4ae-c1638cbbbf04)
-    (property "Reference" "#PWR096" (at 41.91 81.28 0)
+    (property "Reference" "#PWR0100" (at 41.91 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 41.91 78.74 0)
@@ -1816,7 +1802,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -1877,7 +1863,7 @@
   (symbol (lib_id "power:Earth") (at 72.39 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecf20c3d-029a-4ef3-8611-9258a0b8c3a8)
-    (property "Reference" "#PWR092" (at 72.39 52.705 0)
+    (property "Reference" "#PWR096" (at 72.39 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 72.39 50.165 0)
@@ -1893,7 +1879,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -1928,7 +1914,7 @@
   (symbol (lib_id "power:Earth") (at 177.165 132.715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef2ffbef-ff19-465a-b265-e473c0554e73)
-    (property "Reference" "#PWR099" (at 177.165 139.065 0)
+    (property "Reference" "#PWR0103" (at 177.165 139.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 177.165 136.525 0)
@@ -1944,7 +1930,7 @@
     (instances
       (project "DeltaRhoRobot"
         (path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026/ba807c80-2a51-4f5f-8aa4-02e2ddffef6a"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
