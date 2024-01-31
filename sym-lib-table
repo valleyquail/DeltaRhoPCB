@@ -6,4 +6,5 @@
   (lib (name "5051102491")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/CSI_Connector/5051102491.kicad_sym")(options "")(descr "CSI_Connector"))
   (lib (name "ESP32-CAM")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/esp32-cam/ESP32-CAM.kicad_sym")(options "")(descr ""))
   (lib (name "switch185")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/switch185/KiCADv6/2024-01-26_03-15-57.kicad_sym")(options "")(descr ""))
+  (lib (name "JST-ZH-4Pin")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/JST-ZH-4Pin/KiCADv6/2024-01-31_20-46-32.kicad_sym")(options "")(descr ""))
 )

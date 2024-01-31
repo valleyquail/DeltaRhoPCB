@@ -5,4 +5,5 @@
   (lib (name "DRV8835")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/DRV8835/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ABM8G")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/abm8g")(options "")(descr ""))
   (lib (name "switch185")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/switch185/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "JST-ZR-4Pin")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/JST-ZH-4Pin/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
