@@ -2526,7 +2526,7 @@
     (property "Reference" "R4" (at 191.516 105.283 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 191.516 107.823 0)
+    (property "Value" "22k" (at 191.516 107.823 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 188.976 106.553 0)
