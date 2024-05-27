@@ -13095,7 +13095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B4B-ZRLFSN"
+		(property "Value" "JST-XH"
 			(at 283.21 159.766 0)
 			(effects
 				(font
@@ -13105,7 +13105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST-ZR-4Pin:CONN_B4B-ZRLFSN_JST"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
 			(at 269.748 154.686 0)
 			(effects
 				(font
@@ -13115,7 +13115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "B4B-ZRLFSN"
+		(property "Datasheet" ""
 			(at 269.748 154.686 0)
 			(effects
 				(font
@@ -13126,15 +13126,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.748 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
 			(at 269.748 154.686 0)
 			(effects
 				(font

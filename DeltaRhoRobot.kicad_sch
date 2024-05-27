@@ -6425,7 +6425,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" "0.91,0"
+		(property "JLCPCB Position Offset" "0,-0.91"
 			(at 32.766 42.418 0)
 			(effects
 				(font
@@ -6565,7 +6565,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" "0.91,0"
+		(property "JLCPCB Position Offset" "0,-0.91"
 			(at 31.496 110.363 0)
 			(effects
 				(font
@@ -7295,7 +7295,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" "1.4,0"
+		(property "JLCPCB Position Offset" "0,1.4"
 			(at 111.506 63.373 0)
 			(effects
 				(font
