@@ -13105,7 +13105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 269.748 154.686 0)
 			(effects
 				(font
@@ -13136,6 +13136,15 @@
 		)
 		(property "JLCPCB Rotation Offset" ""
 			(at 269.748 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part # " ""
+			(at 0 309.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
