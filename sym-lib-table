@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "ICM-42688")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/ICM-42688/KiCADv6/2024-03-22_09-48-27.kicad_sym")(options "")(descr ""))
+  (lib (name "AONR21321")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/AONR/2024-06-09_03-06-16.kicad_sym")(options "")(descr ""))
+  (lib (name "AOZ6605")(type "KiCad")(uri "/home/nikesh/Documents/KiCAD/AOZ6605/2024-06-07_21-42-29.kicad_sym")(options "")(descr ""))
 )
