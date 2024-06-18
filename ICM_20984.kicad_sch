@@ -3919,7 +3919,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 50.292 137.16 0)
 			(effects
 				(font
@@ -4150,7 +4150,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 207.264 118.872 0)
 			(effects
 				(font
@@ -4476,7 +4476,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 257.81 142.24 0)
 			(effects
 				(font

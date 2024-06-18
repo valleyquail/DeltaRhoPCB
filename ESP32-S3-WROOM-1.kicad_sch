@@ -8867,7 +8867,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 105.41 105.41 0)
 			(effects
 				(font
@@ -9295,7 +9295,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 45.72 22.86 0)
 			(effects
 				(font
@@ -9898,7 +9898,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 273.05 54.61 0)
 			(effects
 				(font
@@ -11210,7 +11210,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 90.17 105.41 0)
 			(effects
 				(font
@@ -12017,7 +12017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 100.33 105.41 0)
 			(effects
 				(font
@@ -12086,7 +12086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Espressif:ESP32-S3-WROOM-1"
+		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
 			(at 198.12 123.19 0)
 			(effects
 				(font
@@ -12718,7 +12718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 95.25 105.41 0)
 			(effects
 				(font
@@ -13322,7 +13322,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 204.47 26.67 0)
 			(effects
 				(font
