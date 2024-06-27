@@ -1,0 +1,12 @@
+*.lck
+*cache
+*table
+*xml
+/DeltaRhoRobot-backups
+.net
+.csv
+*bak
+.dsn
+production/
+bom/
+gerbers

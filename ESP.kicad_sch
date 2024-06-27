@@ -5575,7 +5575,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 53.34) (xy 29.21 53.34)
+			(xy 33.02 53.34) (xy 30.48 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8621,7 +8621,7 @@
 	)
 	(hierarchical_label "USB_DM_Pico"
 		(shape bidirectional)
-		(at 30.48 45.72 180)
+		(at 30.48 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8633,7 +8633,7 @@
 	)
 	(hierarchical_label "USB_DP_Pico"
 		(shape bidirectional)
-		(at 29.21 53.34 180)
+		(at 30.48 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10801,8 +10801,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 36.83 53.34 270)
-		(mirror x)
+		(at 36.83 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10810,7 +10809,7 @@
 		(dnp no)
 		(uuid "4518e5d6-f401-4bd2-a772-7e6ce597f06a")
 		(property "Reference" "R16"
-			(at 32.512 51.816 90)
+			(at 31.75 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,7 +10825,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 36.576 52.324 90)
+			(at 37.084 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
