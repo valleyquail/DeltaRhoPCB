@@ -3051,15 +3051,15 @@
 		(fields_autoplaced yes)
 		(uuid "065764ae-820f-46ab-ac00-5b42d80a6d74")
 		(property "Reference" "U13"
-			(at 103.886 23.876 0)
+			(at 103.886 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MIC5365-3.3YC5"
-			(at 103.886 26.416 0)
+		(property "Value" "MIC5366-1.8YC5-TR"
+			(at 103.886 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3919,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C307331"
+		(property "LCSC Part #" "C1525"
 			(at 50.292 137.16 0)
 			(effects
 				(font
@@ -4150,7 +4150,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C307331"
+		(property "LCSC Part #" "C1525"
 			(at 207.264 118.872 0)
 			(effects
 				(font
@@ -4476,7 +4476,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C307331"
+		(property "LCSC Part #" "C1525"
 			(at 257.81 142.24 0)
 			(effects
 				(font
