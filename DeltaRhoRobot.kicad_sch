@@ -6988,15 +6988,15 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 116.84 177.8 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0dad92a3-e83f-4ec5-adc8-38d3cd3afabf")
 		(property "Reference" "C6"
-			(at 120.015 176.5363 0)
+			(at 113.665 176.5363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,7 +7005,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 120.015 179.0763 0)
+			(at 113.665 179.0763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7391,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "22k"
@@ -11798,7 +11797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switch185:1825232-1_TEC"
+		(property "Footprint" "Switch185:1825232-1_TEC"
 			(at 111.76 71.12 0)
 			(effects
 				(font
@@ -12099,7 +12098,7 @@
 		(dnp no)
 		(uuid "e46b1aac-ba1d-4218-85d3-7b0da3d4ac42")
 		(property "Reference" "R7"
-			(at 117.475 169.545 90)
+			(at 120.65 168.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
