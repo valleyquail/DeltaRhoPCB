@@ -1663,6 +1663,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/home/nikesh/Documents/KiCAD/PTS810/PTS810_SJM_250_SMTR_LFS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 		(layer "F.Cu")
