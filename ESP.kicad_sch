@@ -7486,7 +7486,7 @@
 		(uuid "0378054a-618e-4674-b4d7-0f6f41549065")
 	)
 	(label "M5_Enc_B"
-		(at 100.33 111.76 0)
+		(at 100.33 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7926,7 +7926,7 @@
 		(uuid "6098d56b-c661-4eda-a227-35d392d3f5be")
 	)
 	(label "M5_Enc_A"
-		(at 100.33 109.22 0)
+		(at 100.33 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8179,7 +8179,7 @@
 		(uuid "acf30014-cf2d-4a84-b859-3b56e681d0ef")
 	)
 	(label "M6_Enc_B"
-		(at 100.33 116.84 0)
+		(at 100.33 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8366,7 +8366,7 @@
 		(uuid "de0eb326-4ed2-4ca8-8a46-bc62b6ce01e0")
 	)
 	(label "M6_Enc_A"
-		(at 100.33 114.3 0)
+		(at 100.33 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11780,102 +11780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JST-ZH-4Pin:B4B-ZRLFSN")
-		(at 166.37 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6710ca3d-3bee-492f-b88b-f3ef45cb243b")
-		(property "Reference" "J5"
-			(at 172.974 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST-XH"
-			(at 179.832 46.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 166.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 166.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part # " ""
-			(at 4.191 83.439 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c110e9b-c91b-4aa6-8565-f3d8a8f52e90")
-		)
-		(pin "1"
-			(uuid "ca7b45d5-5eb1-49e8-8eeb-0c37fff742e5")
-		)
-		(pin "3"
-			(uuid "14ba0b4e-b1d4-4888-8e50-bbb24c2cf8f5")
-		)
-		(pin "4"
-			(uuid "8c47b948-b14a-4c45-b94b-45717ee10a94")
-		)
-		(instances
-			(project "DeltaRhoRobot"
-				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/ff44b13b-7cc8-487d-9bdf-cc68eec5ba2f"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 223.52 76.2 0)
 		(unit 1)
@@ -13076,6 +12980,103 @@
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/ff44b13b-7cc8-487d-9bdf-cc68eec5ba2f"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JST-ZH-4Pin:B4B-ZRLFSN")
+		(at 166.37 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acc8dada-250b-4acb-a014-e9550f6bb693")
+		(property "Reference" "J5"
+			(at 172.974 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-XH"
+			(at 179.832 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part # " ""
+			(at 4.191 8.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00ec2cbc-d034-4787-98ab-420794e48709")
+		)
+		(pin "1"
+			(uuid "1af44305-568d-407f-8271-cc29a81fe4f0")
+		)
+		(pin "3"
+			(uuid "00ae7c7b-b588-4797-b29d-a8bf8e7ece12")
+		)
+		(pin "4"
+			(uuid "9126c00c-752e-4d09-a34b-d2bb665ec170")
+		)
+		(instances
+			(project "DeltaRhoRobot"
+				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/ff44b13b-7cc8-487d-9bdf-cc68eec5ba2f"
+					(reference "J5")
 					(unit 1)
 				)
 			)

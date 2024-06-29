@@ -6250,6 +6250,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 146.05) (xy 269.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f17f07e-e421-42c5-9d89-2621ac587675")
+	)
+	(wire
+		(pts
 			(xy 143.51 59.69) (xy 149.86 59.69)
 		)
 		(stroke
@@ -6447,16 +6457,6 @@
 			(type default)
 		)
 		(uuid "550a1aed-5ca6-4d18-9fbd-9566b8b142aa")
-	)
-	(wire
-		(pts
-			(xy 269.24 146.05) (xy 269.24 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5706a7d3-6057-44c2-936b-77d4a952f714")
 	)
 	(wire
 		(pts
@@ -8727,7 +8727,7 @@
 	)
 	(global_label "Pico_SCL1"
 		(shape input)
-		(at 260.35 102.87 0)
+		(at 260.35 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8737,7 +8737,7 @@
 		)
 		(uuid "275a57fb-6578-43b5-9b43-e9ae399d4ee9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.1323 102.87 0)
+			(at 273.1323 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +8749,7 @@
 	)
 	(global_label "Pico_SDA1"
 		(shape input)
-		(at 260.35 110.49 0)
+		(at 260.35 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8759,7 +8759,7 @@
 		)
 		(uuid "5beb76d1-1e30-4544-af83-7699da0f9260")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.1928 110.49 0)
+			(at 273.1928 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +9891,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "3dd5ad17-043d-4652-990f-efcf9c8b08c2")
 		(property "Reference" "C18"
@@ -10703,7 +10703,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f9b0ea6-212e-4449-b3d1-84ad0183853e")
@@ -11221,6 +11221,103 @@
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JST-ZH-4Pin:B4B-ZRLFSN")
+		(at 269.24 162.56 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "797cab64-fa92-4b08-9443-d548a39336ca")
+		(property "Reference" "J4"
+			(at 276.352 150.368 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-XH"
+			(at 282.702 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part # " ""
+			(at -0.508 7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d222c5f-afbb-4d36-8538-0ababec66a7f")
+		)
+		(pin "1"
+			(uuid "10c16b9d-9eef-4337-b038-654533396da7")
+		)
+		(pin "3"
+			(uuid "43c3d683-5f7a-4294-b51d-7e6d78cd87a3")
+		)
+		(pin "4"
+			(uuid "fdc20413-c929-492f-8807-f2bad5882483")
+		)
+		(instances
+			(project "DeltaRhoRobot"
+				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12617,7 +12714,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec126c8b-1abd-4a9b-b914-cd0eba1cb1b6")
@@ -13035,102 +13132,6 @@
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JST-ZH-4Pin:B4B-ZRLFSN")
-		(at 269.24 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "faea6916-1f80-46c4-98bd-1788df4c24ef")
-		(property "Reference" "J4"
-			(at 275.59 150.368 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST-XH"
-			(at 282.702 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 269.24 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 269.24 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part # " ""
-			(at -0.508 309.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "021b57c7-3a90-41e1-b3f6-7bbd9afe0632")
-		)
-		(pin "1"
-			(uuid "2ee27bf2-a5eb-4bb4-91bf-9f4089b518c0")
-		)
-		(pin "3"
-			(uuid "94521995-10c5-45ee-9ebc-8db188fd615c")
-		)
-		(pin "4"
-			(uuid "9e0e760b-5adb-4494-9e37-d44ee9891d9e")
-		)
-		(instances
-			(project "DeltaRhoRobot"
-				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J4")
 					(unit 1)
 				)
 			)
