@@ -8930,7 +8930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01bee59c-2d30-4e60-8a83-948b4d656c40")
-		(property "Reference" "C22"
+		(property "Reference" "C7"
 			(at 106.045 102.235 0)
 			(effects
 				(font
@@ -9011,7 +9011,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C22")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9360,7 +9360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "262b02a3-cde7-458a-887a-dd2defbf6edc")
-		(property "Reference" "C32"
+		(property "Reference" "C10"
 			(at 45.7263 16.764 90)
 			(effects
 				(font
@@ -9439,7 +9439,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C32")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9455,7 +9455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ca53e8-f215-4db5-a073-dc5e87239627")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 249.555 151.13 0)
 			(effects
 				(font
@@ -9536,7 +9536,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9685,7 +9685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38d91598-f62e-4be9-9926-8edde4f14a06")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 58.42 31.115 0)
 			(effects
 				(font
@@ -9772,7 +9772,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9992,7 +9992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "432e7036-d54a-49a8-aafb-8d70dabaeded")
-		(property "Reference" "J11"
+		(property "Reference" "J7"
 			(at 144.78 168.275 0)
 			(effects
 				(font
@@ -10082,7 +10082,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J11")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10164,7 +10164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4901b800-fa92-4644-bd46-6ff8ac8f0ea9")
-		(property "Reference" "J15"
+		(property "Reference" "J4"
 			(at 103.505 44.45 0)
 			(effects
 				(font
@@ -10285,7 +10285,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J15")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10366,7 +10366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54279cf8-39c7-4a35-bef2-aeb8f050bc40")
-		(property "Reference" "J6"
+		(property "Reference" "J2"
 			(at 127.635 97.79 0)
 			(effects
 				(font
@@ -10460,7 +10460,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10610,7 +10610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b80b46b-d426-4aec-9e61-81a3f6794338")
-		(property "Reference" "C17"
+		(property "Reference" "C4"
 			(at 224.79 25.3936 0)
 			(effects
 				(font
@@ -10691,7 +10691,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C17")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11043,7 +11043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "737a8324-8863-478f-9fcf-a84a133d8b65")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 262.255 152.4 0)
 			(effects
 				(font
@@ -11124,7 +11124,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11139,7 +11139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "768a32b4-0324-4c87-8e58-000d7e380a81")
-		(property "Reference" "C19"
+		(property "Reference" "C5"
 			(at 90.805 102.235 0)
 			(effects
 				(font
@@ -11220,7 +11220,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C19")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11236,7 +11236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "797cab64-fa92-4b08-9443-d548a39336ca")
-		(property "Reference" "J4"
+		(property "Reference" "J9"
 			(at 276.352 150.368 0)
 			(effects
 				(font
@@ -11317,7 +11317,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J4")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11400,7 +11400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94ce2266-28e6-4ef5-82e6-124a3db41764")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 46.355 127 0)
 			(effects
 				(font
@@ -11491,7 +11491,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11573,7 +11573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99c3d42e-bd6f-48e1-bf2e-408a6d29a7d2")
-		(property "Reference" "J13"
+		(property "Reference" "J1"
 			(at 121.285 125.73 0)
 			(effects
 				(font
@@ -11694,7 +11694,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J13")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11710,7 +11710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a37b0949-98da-414d-94aa-738cd4027d26")
-		(property "Reference" "J7"
+		(property "Reference" "J12"
 			(at 39.37 60.96 0)
 			(effects
 				(font
@@ -11895,7 +11895,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J7")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -12044,7 +12044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcb5f90b-fce2-4a54-abdb-1c42512546ee")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 100.965 102.235 0)
 			(effects
 				(font
@@ -12125,7 +12125,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C21")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12140,7 +12140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5b0427f-e053-4571-bea0-808320e1fe5e")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -12338,7 +12338,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "U8")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d58e0e40-b539-4687-b1ca-d3c56bf80c75")
-		(property "Reference" "C16"
+		(property "Reference" "C2"
 			(at 215.9 26.67 0)
 			(effects
 				(font
@@ -12568,7 +12568,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C16")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12812,7 +12812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eff4a5b1-4cc1-47ad-9d3b-1d7edd7f379d")
-		(property "Reference" "C20"
+		(property "Reference" "C9"
 			(at 95.885 102.235 0)
 			(effects
 				(font
@@ -12893,7 +12893,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C20")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12976,7 +12976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f154e68d-6889-4964-a919-d0308bc88602")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 38.1 33.1821 0)
 			(effects
 				(font
@@ -13063,7 +13063,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13146,7 +13146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdfeaac2-5d90-45f6-a3ac-41186707bd21")
-		(property "Reference" "J14"
+		(property "Reference" "J3"
 			(at 90.424 43.18 0)
 			(effects
 				(font
@@ -13240,7 +13240,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J14")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13255,7 +13255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe0d9cfb-c8ba-4ddc-a137-0981caa25904")
-		(property "Reference" "C15"
+		(property "Reference" "C3"
 			(at 198.12 26.67 0)
 			(effects
 				(font
@@ -13336,7 +13336,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C15")
+					(reference "C3")
 					(unit 1)
 				)
 			)
