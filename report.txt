@@ -1,0 +1,289 @@
+Change R11 value from '33.2K' to '5K'.
+Change field 'LCSC Part #' value to 'C25905'.
+Change C15 footprint assignment from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_1206_3216Metric'.
+Change field 'LCSC Part #' value to 'C13585'.
+Change D1 footprint assignment from 'Package_TO_SOT_SMD:SOT-23' to 'LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm'.
+Change D1 value from 'PMEG2005CT' to 'WS2812B'.
+Change field 'Datasheet' value to 'https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf'.
+Change field 'LCSC Part #' value to 'C114586'.
+Change C4 footprint assignment from 'Capacitor_SMD:C_1206_3216Metric' to 'Capacitor_SMD:C_0603_1608Metric'.
+Change C4 value from '10uF' to '22uF'.
+Change field 'LCSC Part #' value to 'C59461'.
+Change R12 footprint assignment from 'Resistor_SMD:R_0402_1005Metric' to 'Resistor_SMD:R_0603_1608Metric'.
+Change R12 value from '22k' to '30K'.
+Change field 'LCSC Part #' value to 'C22984'.
+Change C6 value from '33pF' to '100nF'.
+Change field 'LCSC Part #' value to 'C307331'.
+Change J2 footprint assignment from 'Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV' to 'Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical'.
+Change J2 value from 'USB_C_Receptacle_USB2.0' to 'Conn_01x09'.
+Change field 'Datasheet' value to ''.
+Change field 'JLCPCB Position Offset' value to ''.
+Delete field 'LCSC Part #.'
+Change J3 footprint assignment from 'Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV' to 'Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical'.
+Change J3 value from 'USB_C_Receptacle_USB2.0' to 'Conn_01x09'.
+Change field 'Datasheet' value to ''.
+Change field 'JLCPCB Position Offset' value to ''.
+Delete field 'LCSC Part #.'
+Change R14 value from '2.2k' to '33'.
+Change field 'LCSC Part #' value to 'C25105'.
+Change R2 value from '5K' to '22k'.
+Change field 'LCSC Part #' value to 'C25768'.
+Change C1 value from '100nF' to '10uF'.
+Change field 'LCSC Part #' value to 'C15525 '.
+Change C11 footprint assignment from 'Capacitor_SMD:C_0805_2012Metric' to 'Capacitor_SMD:C_0402_1005Metric'.
+Change C11 value from '22uF' to '1uF'.
+Change field 'Datasheet' value to ''.
+Change field 'LCSC Part #' value to 'C52923'.
+Change C14 footprint assignment from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_0805_2012Metric'.
+Change C14 value from '100nF' to '22uF'.
+Change field 'Datasheet' value to 'https://content.kemet.com/datasheets/KEM_A4088_A768.pdf'.
+Change field 'LCSC Part #' value to 'C45783'.
+Change R5 footprint assignment from 'Resistor_SMD:R_0402_1005Metric' to 'Resistor_SMD:R_0603_1608Metric'.
+Change R5 value from '27' to '220K'.
+Change field 'LCSC Part #' value to ''.
+Change R9 value from '100K' to '5K'.
+Change field 'LCSC Part #' value to 'C25905'.
+Change R10 footprint assignment from 'Resistor_SMD:R_0603_1608Metric' to 'Resistor_SMD:R_0402_1005Metric'.
+Change R10 value from '30K' to '5K'.
+Change field 'LCSC Part #' value to 'C25905'.
+Change C5 footprint assignment from 'Capacitor_SMD:C_1206_3216Metric' to 'Capacitor_SMD:C_0402_1005Metric'.
+Change C5 value from '10uF' to '100nF'.
+Change field 'LCSC Part #' value to 'C307331'.
+Change R3 value from '1K' to '2.2k'.
+Change field 'LCSC Part #' value to 'C25879'.
+Change R4 value from '1K' to '10k'.
+Change field 'LCSC Part #' value to 'C25744'.
+Change J1 footprint assignment from 'Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' to 'Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical'.
+Change J1 value from 'Conn_01x02_Socket' to 'Conn_02x09_Top_Bottom'.
+Delete field 'LCSC Part #.'
+Change C13 footprint assignment from 'Capacitor_SMD:C_0805_2012Metric' to 'Capacitor_SMD:C_1206_3216Metric'.
+Change C13 value from '22uF' to '10uF'.
+Change field 'Datasheet' value to ''.
+Change field 'LCSC Part #' value to 'C13585'.
+Change U2 footprint assignment from 'Package_TO_SOT_SMD:SOT-563' to 'Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Change U2 value from 'TPS566242DRLR' to 'AMS1117-3.3'.
+Change field 'Datasheet' value to 'http://www.advanced-monolithic.com/pdf/ds1117.pdf'.
+Change field 'Description' value to ''.
+Add field 'JLCPCB Position Offset' with value ''.
+Add field 'JLCPCB Rotation Offset' with value ''.
+Add field 'LCSC Part #' with value 'C347222'.
+Change R6 value from '5K' to '33.2K'.
+Change field 'LCSC Part #' value to 'C25779'.
+Change C12 footprint assignment from 'Capacitor_SMD:C_0805_2012Metric' to 'Capacitor_SMD:C_0402_1005Metric'.
+Change C12 value from '22uF' to '100nF'.
+Change field 'Datasheet' value to ''.
+Change field 'LCSC Part #' value to 'C307331'.
+Change C9 value from '10uF' to '100nF'.
+Change field 'LCSC Part #' value to 'C307331'.
+Change U1 footprint assignment from 'Package_TO_SOT_SMD:SOT-223-3_TabPin2' to 'PCM_Espressif:ESP32-S3-WROOM-1'.
+Change U1 value from 'AMS1117-3.3' to 'ESP32-S3-WROOM-1-N8R2'.
+Change field 'Datasheet' value to 'https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf'.
+Change field 'LCSC Part #' value to 'C2913204'.
+Change C8 value from '10uF' to '100nF'.
+Change field 'LCSC Part #' value to 'C307331'.
+Change C10 footprint assignment from 'Capacitor_SMD:C_0805_2012Metric' to 'Capacitor_SMD:C_0402_1005Metric'.
+Change C10 value from '22uF' to '100nF'.
+Change field 'Datasheet' value to ''.
+Change field 'LCSC Part #' value to 'C307331'.
+Change R13 value from '10k' to '33'.
+Change field 'LCSC Part #' value to 'C25105'.
+Change C2 footprint assignment from 'Capacitor_SMD:C_0805_2012Metric' to 'Capacitor_SMD:C_0402_1005Metric'.
+Change C2 value from '22uF' to '1uF'.
+Change field 'Datasheet' value to ''.
+Change field 'LCSC Part #' value to 'C52923'.
+Change C3 footprint assignment from 'Capacitor_SMD:C_0805_2012Metric' to 'Capacitor_SMD:C_0402_1005Metric'.
+Change C3 value from '22uF' to '100nF'.
+Change field 'Datasheet' value to ''.
+Change field 'LCSC Part #' value to 'C307331'.
+Change R1 value from '5K' to '1K'.
+Change field 'LCSC Part #' value to 'C11702'.
+Change R8 footprint assignment from 'Resistor_SMD:R_0603_1608Metric' to 'Resistor_SMD:R_0402_1005Metric'.
+Change R8 value from '220K' to '1K'.
+Change field 'LCSC Part #' value to 'C11702'.
+Change C41 footprint assignment from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_0805_2012Metric'.
+Change C41 value from '100nF' to '22uF'.
+Change field 'Datasheet' value to 'https://content.kemet.com/datasheets/KEM_A4088_A768.pdf'.
+Change field 'LCSC Part #' value to 'C45783'.
+Change C33 footprint assignment from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_0805_2012Metric'.
+Change C33 value from '100nF' to '22uF'.
+Change field 'Datasheet' value to 'https://content.kemet.com/datasheets/KEM_A4088_A768.pdf'.
+Change field 'LCSC Part #' value to 'C45783'.
+Change R20 value from '5K' to '2.2k'.
+Change field 'LCSC Part #' value to 'C25879'.
+Change J10 footprint assignment from 'Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical' to 'Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical'.
+Change J10 value from 'Conn_01x08' to 'JST-XH'.
+Change J10 'Do not populate' from 'true' to 'false'.
+Add field 'LCSC Part # ' with value ''.
+Delete field 'JLCPCB Position Offset.'
+Change C37 footprint assignment from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_0805_2012Metric'.
+Change C37 value from '100nF' to '22uF'.
+Change field 'Datasheet' value to 'https://content.kemet.com/datasheets/KEM_A4088_A768.pdf'.
+Change field 'LCSC Part #' value to 'C45783'.
+Change J6 footprint assignment from 'Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical' to 'Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV'.
+Change J6 value from 'Conn_02x09_Top_Bottom' to 'USB_C_Receptacle_USB2.0'.
+Change field 'Datasheet' value to 'https://www.usb.org/sites/default/files/documents/usb_type-c.zip'.
+Change field 'JLCPCB Position Offset' value to '0,-0.91'.
+Add field 'LCSC Part #' with value 'C2988369'.
+Change J8 footprint assignment from 'Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical' to 'Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical'.
+Change J8 value from 'Conn_01x09' to 'Conn_01x08'.
+Change C36 footprint assignment from 'Capacitor_SMD:C_0603_1608Metric' to 'Capacitor_SMD:C_0402_1005Metric'.
+Change C36 value from '22uF' to '100nF'.
+Change field 'LCSC Part #' value to 'C1525'.
+Change R21 value from '5K' to '1K'.
+Change field 'LCSC Part #' value to 'C11702'.
+Change C38 footprint assignment from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_0805_2012Metric'.
+Change C38 value from '100nF' to '22uF'.
+Change field 'Datasheet' value to 'https://content.kemet.com/datasheets/KEM_A4088_A768.pdf'.
+Change field 'LCSC Part #' value to 'C45783'.
+Change J12 footprint assignment from 'Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical' to 'Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical'.
+Change J12 value from 'JST-XH' to 'Conn_02x20_Counter_Clockwise'.
+Change field 'Datasheet' value to 'https://drive.google.com/drive/folders/1tyaEemq5COwmbvGT7v_cfKhg2_t4u_yg'.
+Add field 'JLCPCB Position Offset' with value ''.
+Delete field 'LCSC Part # .'
+Change J9 footprint assignment from 'Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical' to 'Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical'.
+Change J9 value from 'Conn_01x08' to 'JST-XH'.
+Add field 'LCSC Part # ' with value ''.
+Delete field 'JLCPCB Position Offset.'
+Change J11 footprint assignment from 'Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical' to 'Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical'.
+Change J11 value from 'Conn_02x09_Top_Bottom' to 'Conn_01x02_Socket'.
+Add field 'LCSC Part #' with value 'C163035'.
+Change J7 footprint assignment from 'Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical' to 'Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical'.
+Change J7 value from 'Conn_02x20_Counter_Clockwise' to 'Conn_01x08'.
+Change field 'Datasheet' value to ''.
+Change C40 value from '100nF' to '10uF'.
+Change field 'LCSC Part #' value to 'C1525'.
+Change U8 footprint assignment from 'PCM_Espressif:ESP32-S3-WROOM-1' to 'Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias'.
+Change U8 value from 'ESP32-S3-WROOM-1-N8R2' to 'DRV8835DSSR'.
+Change field 'Datasheet' value to 'DRV8835DSSR'.
+Change field 'JLCPCB Rotation Offset' value to '-90'.
+Change field 'LCSC Part #' value to 'C129328'.
+Change C35 value from '1uF' to '100nF'.
+Change field 'LCSC Part #' value to 'C307331'.
+Change C39 value from '100nF' to '2.2uF'.
+Change field 'LCSC Part #' value to 'C12530'.
+Change D3 footprint assignment from 'LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm' to 'Package_TO_SOT_SMD:SOT-23'.
+Change D3 value from 'WS2812B' to 'PMEG2005CT'.
+Change field 'Datasheet' value to 'https://assets.nexperia.com/documents/data-sheet/PMEG2005CT.pdf'.
+Change field 'LCSC Part #' value to 'C282562'.
+Change J5 footprint assignment from 'Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical' to 'Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV'.
+Change J5 value from 'Conn_01x09' to 'USB_C_Receptacle_USB2.0'.
+Change field 'Datasheet' value to 'https://www.usb.org/sites/default/files/documents/usb_type-c.zip'.
+Change field 'JLCPCB Position Offset' value to '0,-0.91'.
+Add field 'LCSC Part #' with value 'C2988369'.
+Change C34 value from '100nF' to '10uF'.
+Change field 'LCSC Part #' value to 'C1525'.
+Change R19 value from '1K' to '2.2k'.
+Change field 'LCSC Part #' value to 'C25879'.
+Change U6 footprint assignment from 'Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias' to 'Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm'.
+Change U6 value from 'DRV8835DSSR' to 'RP2040'.
+Change field 'Datasheet' value to 'https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf'.
+Change field 'JLCPCB Rotation Offset' value to ''.
+Change field 'LCSC Part #' value to 'C2040'.
+Change U4 footprint assignment from 'Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm' to 'ICM-42688:LGA14_2P5X3X0P91_TDK'.
+Change U4 value from 'RP2040' to 'ICM-42688-P'.
+Change field 'Datasheet' value to 'ICM-42688-P'.
+Change field 'LCSC Part #' value to 'C1850418'.
+Change C19 value from '1uF' to '100nF'.
+Change field 'LCSC Part #' value to 'C1525'.
+Change U3 footprint assignment from 'Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias' to 'Package_LGA:LGA-12_2x2mm_P0.5mm'.
+Change U3 value from 'DRV8835DSSR' to 'LIS3MDL'.
+Change field 'Datasheet' value to 'https://www.st.com/resource/en/datasheet/lis3mdl.pdf'.
+Change field 'JLCPCB Rotation Offset' value to '90'.
+Change field 'LCSC Part #' value to 'C478483'.
+Change U7 footprint assignment from 'Package_SO:SOIC-8_5.23x5.23mm_P1.27mm' to 'Package_TO_SOT_SMD:SOT-563'.
+Change U7 value from 'W25Q16JVS' to 'TPS566242DRLR'.
+Change field 'Datasheet' value to 'https://www.ti.com/lit/ds/symlink/tps566242.pdf'.
+Change field 'Description' value to '  Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 6A SOT-563, SOT-666'.
+Change R16 value from '33' to '2.2k'.
+Change field 'LCSC Part #' value to 'C25879'.
+Change C31 value from '2.2uF' to '100nF'.
+Change field 'LCSC Part #' value to 'C1525'.
+Change R18 footprint assignment from 'Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' to 'Resistor_SMD:R_0402_1005Metric'.
+Change R18 value from 'DNF' to '5K'.
+Change R18 'Do not populate' from 'true' to 'false'.
+Add field 'LCSC Part #' with value 'C25905'.
+Change R17 value from '1k' to '5K'.
+Change field 'Description' value to ''.
+Add field 'JLCPCB Position Offset' with value ''.
+Add field 'JLCPCB Rotation Offset' with value ''.
+Change field 'LCSC Part #' value to 'C25905'.
+Change C23 value from '100nF' to '1uF'.
+Change field 'LCSC Part #' value to 'C52923'.
+Change C17 footprint assignment from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_0805_2012Metric'.
+Change C17 value from '100nF' to '22uF'.
+Change field 'Datasheet' value to 'https://content.kemet.com/datasheets/KEM_A4088_A768.pdf'.
+Change field 'LCSC Part #' value to 'C45783'.
+Change C18 value from '1uF' to '2.2uF'.
+Change field 'LCSC Part #' value to 'C12530'.
+Change J4 footprint assignment from 'Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical' to 'Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical'.
+Change J4 value from 'JST-XH' to 'Conn_02x09_Top_Bottom'.
+Add field 'JLCPCB Position Offset' with value ''.
+Delete field 'LCSC Part # .'
+Change U5 footprint assignment from 'Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias' to 'Package_TO_SOT_SMD:SOT-353_SC-70-5'.
+Change U5 value from 'DRV8835DSSR' to 'MIC5366-1.8YC5-TR'.
+Change field 'Datasheet' value to 'http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf'.
+Change field 'JLCPCB Rotation Offset' value to ''.
+Change field 'LCSC Part #' value to 'C3021118'.
+Change C25 value from '15pF' to '1uF'.
+Change field 'LCSC Part #' value to 'C52923'.
+Change R15 value from '33' to '2.2k'.
+Change field 'LCSC Part #' value to 'C25879'.
+Change C16 value from '100nF' to '33pF'.
+Change field 'LCSC Part #' value to 'C1562'.
+Delete field 'Name.'
+Change C26 value from '15pF' to '1uF'.
+Change field 'LCSC Part #' value to 'C52923'.
+Change C24 value from '100nF' to '10nF'.
+Change field 'LCSC Part #' value to 'C15195'.
+Change U9 footprint assignment from 'Package_TO_SOT_SMD:SOT-353_SC-70-5' to 'Package_SO:SOIC-8_5.23x5.23mm_P1.27mm'.
+Change U9 value from 'MIC5366-1.8YC5-TR' to 'W25Q16JVS'.
+Change field 'Datasheet' value to 'https://www.winbond.com/resource-files/w25q16jv%20spi%20revg%2003222018%20plus.pdf'.
+Change field 'Description' value to '16Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8'.
+Delete field 'LCSC Part #.'
+Delete field 'JLCPCB Position Offset.'
+Delete field 'JLCPCB Rotation Offset.'
+Change C42 value from '1uF' to '100nF'.
+Change field 'LCSC Part #' value to 'C1525'.
+Change C46 value from '10nF' to '100nF'.
+Change field 'LCSC Part #' value to 'C1525'.
+Change U11 footprint assignment from 'Package_LGA:LGA-12_2x2mm_P0.5mm' to 'Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias'.
+Change U11 value from 'LIS3MDL' to 'DRV8835DSSR'.
+Change field 'Datasheet' value to 'DRV8835DSSR'.
+Change field 'JLCPCB Rotation Offset' value to '-90'.
+Change field 'LCSC Part #' value to 'C129328'.
+Change R23 value from '2.2k' to '27'.
+Change field 'LCSC Part #' value to 'C25105'.
+Change C47 value from '100nF' to '15pF'.
+Change field 'LCSC Part #' value to 'C1548'.
+Change R22 value from '2.2k' to '100K'.
+Change field 'LCSC Part #' value to 'C25741'.
+Change R25 value from '2.2k' to '1k'.
+Change field 'Description' value to 'Resistor, US symbol'.
+Change field 'LCSC Part #' value to 'C11702'.
+Delete field 'JLCPCB Position Offset.'
+Delete field 'JLCPCB Rotation Offset.'
+Change C45 value from '1uF' to '15pF'.
+Change field 'LCSC Part #' value to 'C1548'.
+Change U10 footprint assignment from 'ICM-42688:LGA14_2P5X3X0P91_TDK' to 'Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias'.
+Change U10 value from 'ICM-42688-P' to 'DRV8835DSSR'.
+Change field 'Datasheet' value to 'DRV8835DSSR'.
+Change field 'JLCPCB Rotation Offset' value to '-90'.
+Change field 'LCSC Part #' value to 'C129328'.
+Change R24 footprint assignment from 'Resistor_SMD:R_0402_1005Metric' to 'Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Change R24 value from '2.2k' to 'DNF'.
+Change R24 'Do not populate' from 'false' to 'true'.
+Delete field 'LCSC Part #.'
+Warning: Footprint 'J14' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'U12' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'C53' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'C52' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'C50' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'R30' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'J15' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'U13' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'R28' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'C51' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'R31' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'R29' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'R27' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).
+Warning: Footprint 'R26' is not present on PCB. Corresponding symbols in schematic must be manually deleted (if desired).

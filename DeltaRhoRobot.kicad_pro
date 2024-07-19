@@ -711,10 +711,6 @@
     [
       "b72e047d-6874-46de-bfdb-cff5124484f7",
       "IMU"
-    ],
-    [
-      "ba807c80-2a51-4f5f-8aa4-02e2ddffef6a",
-      "ESP32CAM"
     ]
   ],
   "text_variables": {}
