@@ -3356,7 +3356,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 				(at 1.27 -6.35 0)
 				(effects
 					(font
@@ -3375,7 +3375,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "  Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 6A SOT-563, SOT-666"
+			(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 6A SOT-563, SOT-666"
 				(at -3.048 -11.176 0)
 				(effects
 					(font
@@ -3417,9 +3417,9 @@
 			)
 			(symbol "TPS565208_1_1"
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3453,9 +3453,9 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 2.54 0)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VIN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8500,22 +8500,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3498e41b-9b6d-4920-a94e-9c9d9b659b1e")
-		(property "Reference" "C8"
-			(at 267.97 53.34 0)
+		(property "Reference" "C48"
+			(at 275.59 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 267.97 55.88 0)
+			(at 275.59 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -8581,7 +8581,7 @@
 		(instances
 			(project "DeltaRhoRobot"
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8"
-					(reference "C8")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -10755,7 +10755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "  Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 6A SOT-563, SOT-666"
+		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 6A SOT-563, SOT-666"
 			(at 151.892 126.746 0)
 			(effects
 				(font
@@ -12631,7 +12631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(property "Footprint" "Inductor:HPC 6045NC-2R2M"
 			(at 172.72 113.03 0)
 			(effects
 				(font

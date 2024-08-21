@@ -4691,151 +4691,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -5331,12 +5186,6 @@
 		(uuid "57f8dacb-c418-4b70-864c-1586396fc1d0")
 	)
 	(junction
-		(at 278.13 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59480479-89a5-4270-b884-cd0bfbc95f40")
-	)
-	(junction
 		(at 118.11 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5419,12 +5268,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b33b53f6-5bad-40dc-aa98-99dea92afdc6")
-	)
-	(junction
-		(at 267.97 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2059ac7-05e2-45d7-8391-6a63e8bb4c2a")
 	)
 	(junction
 		(at 213.36 21.59)
@@ -5575,6 +5418,10 @@
 		(uuid "70a5c5e6-c82f-4906-aaf2-aaf74b902c76")
 	)
 	(no_connect
+		(at 241.3 54.61)
+		(uuid "738e95ec-f540-445b-96c9-ce40c904eaa4")
+	)
+	(no_connect
 		(at 33.02 72.39)
 		(uuid "7659f58c-77f1-4bba-85c8-5949a036f00c")
 	)
@@ -5639,7 +5486,7 @@
 		(uuid "e3c98729-99e2-4b75-8c2b-58fcac98d191")
 	)
 	(no_connect
-		(at 43.18 130.81)
+		(at 59.69 161.29)
 		(uuid "eea7af7d-6209-4238-bed5-abf2fb2d3afc")
 	)
 	(no_connect
@@ -5760,16 +5607,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 179.07) (xy 59.69 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04affd0c-8ba9-402d-b3c4-d575d2e448e9")
-	)
-	(wire
-		(pts
 			(xy 130.81 133.35) (xy 130.81 135.89)
 		)
 		(stroke
@@ -5790,17 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 168.91) (xy 55.88 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06180eb4-7346-4f20-999d-507edb06cd31")
-	)
-	(wire
-		(pts
-			(xy 25.4 143.51) (xy 43.18 143.51)
+			(xy 41.91 173.99) (xy 59.69 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5837,16 +5664,6 @@
 			(type default)
 		)
 		(uuid "0e03bb21-6783-43c6-b3ee-c596b2ea1713")
-	)
-	(wire
-		(pts
-			(xy 267.97 50.8) (xy 267.97 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e87e0ae-c0b5-4d5b-a2f2-1fb85dda5156")
 	)
 	(wire
 		(pts
@@ -5940,16 +5757,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 184.15) (xy 59.69 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190f469b-9d3a-44ad-b88d-2e04ca31e6e2")
-	)
-	(wire
-		(pts
 			(xy 222.25 31.75) (xy 222.25 29.21)
 		)
 		(stroke
@@ -5957,16 +5764,6 @@
 			(type default)
 		)
 		(uuid "1a165d67-5365-4844-80a9-f00c9697486c")
-	)
-	(polyline
-		(pts
-			(xy 11.43 156.21) (xy 104.14 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bffc954-0e19-49c0-af60-c434d544b30d")
 	)
 	(bus
 		(pts
@@ -6120,7 +5917,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 140.97) (xy 43.18 140.97)
+			(xy 41.91 171.45) (xy 59.69 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6190,7 +5987,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 148.59) (xy 43.18 148.59)
+			(xy 34.29 179.07) (xy 59.69 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6227,16 +6024,6 @@
 			(type default)
 		)
 		(uuid "3d87d222-9630-4e09-957c-ad0120722b73")
-	)
-	(wire
-		(pts
-			(xy 55.88 186.69) (xy 59.69 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e59026a-3674-4ed7-83f3-9a348c60fbab")
 	)
 	(wire
 		(pts
@@ -6377,16 +6164,6 @@
 			(type default)
 		)
 		(uuid "4d47f0cf-866e-4135-a3c4-a9ca7d23d12d")
-	)
-	(wire
-		(pts
-			(xy 278.13 50.8) (xy 278.13 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d6bde0c-e0c3-4ae6-ae3d-71300fa7feed")
 	)
 	(wire
 		(pts
@@ -6780,16 +6557,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 171.45) (xy 64.77 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "805de408-fe66-4f5f-9d0b-51056907f559")
-	)
-	(wire
-		(pts
 			(xy 241.3 41.91) (xy 252.73 41.91)
 		)
 		(stroke
@@ -6930,7 +6697,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 138.43) (xy 43.18 138.43)
+			(xy 41.91 168.91) (xy 59.69 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7080,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 133.35) (xy 43.18 133.35)
+			(xy 52.07 163.83) (xy 59.69 163.83)
 		)
 		(stroke
 			(width 0)
@@ -7097,16 +6864,6 @@
 			(type default)
 		)
 		(uuid "b30810f0-6802-4898-9a6b-139b5d63cb67")
-	)
-	(wire
-		(pts
-			(xy 275.59 54.61) (xy 278.13 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e9b39a-8abe-4b98-93fe-136066d1fb94")
 	)
 	(wire
 		(pts
@@ -7190,7 +6947,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 146.05) (xy 43.18 146.05)
+			(xy 53.34 176.53) (xy 59.69 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7310,7 +7067,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 135.89) (xy 43.18 135.89)
+			(xy 41.91 166.37) (xy 59.69 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7490,16 +7247,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 181.61) (xy 55.88 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e45588c7-06f6-42fa-9fd0-129624a061ba")
-	)
-	(wire
-		(pts
 			(xy 262.89 72.39) (xy 241.3 72.39)
 		)
 		(stroke
@@ -7550,16 +7297,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 54.61) (xy 267.97 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb01c2b0-9c8a-4b53-9656-cecd0a81594c")
-	)
-	(wire
-		(pts
 			(xy 21.59 74.93) (xy 33.02 74.93)
 		)
 		(stroke
@@ -7600,16 +7337,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 54.61) (xy 267.97 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f735b3-fdc2-43b1-a764-f3bc8c84a38e")
-	)
-	(wire
-		(pts
 			(xy 26.67 69.85) (xy 33.02 69.85)
 		)
 		(stroke
@@ -7637,16 +7364,6 @@
 			(type default)
 		)
 		(uuid "f5495a04-8e28-4169-b3e4-cc95dc42000d")
-	)
-	(wire
-		(pts
-			(xy 55.88 176.53) (xy 59.69 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71171e6-2916-40f4-bf31-3b8a4c1eb844")
 	)
 	(wire
 		(pts
@@ -7792,7 +7509,7 @@
 	)
 	(text "ESP CAM Port"
 		(exclude_from_sim no)
-		(at 15.24 123.19 0)
+		(at 31.75 153.67 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -7814,7 +7531,7 @@
 	)
 	(text "MOSI"
 		(exclude_from_sim no)
-		(at 41.91 140.97 0)
+		(at 58.42 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7869,7 +7586,7 @@
 	)
 	(text "MISO"
 		(exclude_from_sim no)
-		(at 41.91 143.51 0)
+		(at 58.42 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7877,17 +7594,6 @@
 			(justify right bottom)
 		)
 		(uuid "d369c3bf-5b6c-4cf8-849f-05c5b2ade7f8")
-	)
-	(text "ESP32-CAM"
-		(exclude_from_sim no)
-		(at 19.05 161.29 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbc88662-8465-4757-951f-96844d27baf0")
 	)
 	(text "I2C Access"
 		(exclude_from_sim no)
@@ -8010,28 +7716,6 @@
 		)
 		(uuid "251d9eb7-b38d-4f61-9d9c-47f43e83c4e4")
 	)
-	(label "Handshake"
-		(at 59.69 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "255f700b-6b95-47fb-84b1-d900043f20a5")
-	)
-	(label "ESP_MOSI"
-		(at 59.69 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2827a090-4a44-4bfc-b0b6-93eee1a7f43c")
-	)
 	(label "ESP_MOSI"
 		(at 248.92 82.55 0)
 		(fields_autoplaced yes)
@@ -8044,7 +7728,7 @@
 		(uuid "2c824b90-bd5a-4e92-90f4-9be481fe7996")
 	)
 	(label "ESP_SCLK"
-		(at 36.83 135.89 180)
+		(at 53.34 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8053,17 +7737,6 @@
 			(justify right bottom)
 		)
 		(uuid "36bae17d-f235-4314-93b1-69da496a74c4")
-	)
-	(label "USB_RX"
-		(at 64.77 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37ad1da5-d697-491a-8567-c36f0247d1b7")
 	)
 	(label "GPIO37"
 		(at 146.05 110.49 180)
@@ -8252,17 +7925,6 @@
 		)
 		(uuid "734390ec-8b0f-481c-80cc-5e363648ee0b")
 	)
-	(label "USB_TX"
-		(at 64.77 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7371a71e-a814-421d-b257-e4411825632d")
-	)
 	(label "ESP_SCLK"
 		(at 248.92 85.09 0)
 		(fields_autoplaced yes)
@@ -8340,17 +8002,6 @@
 		)
 		(uuid "8da1b49c-0bab-4d6a-a9d4-250d74a37397")
 	)
-	(label "ESP_SCLK"
-		(at 59.69 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8de0af11-e4ac-4de9-8a59-91292c17f301")
-	)
 	(label "GPIO_8"
 		(at 118.11 109.22 180)
 		(fields_autoplaced yes)
@@ -8396,7 +8047,7 @@
 		(uuid "a7773525-c56e-4943-9807-7087bb76936c")
 	)
 	(label "ESP_MISO"
-		(at 36.83 143.51 180)
+		(at 53.34 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8405,17 +8056,6 @@
 			(justify right bottom)
 		)
 		(uuid "abfdbef7-19c0-4831-853c-16b7c57dbbdd")
-	)
-	(label "ESP_MISO"
-		(at 59.69 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "addc3432-0723-4e73-b7ab-5f1f29541b50")
 	)
 	(label "GPIO_18"
 		(at 248.92 95.25 0)
@@ -8539,7 +8179,7 @@
 		(uuid "c57f5b19-5401-4bfa-b42a-19bbc1307dc1")
 	)
 	(label "ESP_CS1"
-		(at 36.83 138.43 180)
+		(at 53.34 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8561,7 +8201,7 @@
 		(uuid "ceb02763-d306-4638-ae69-0c2e2afc7497")
 	)
 	(label "ESP_MOSI"
-		(at 36.83 140.97 180)
+		(at 53.34 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8592,17 +8232,6 @@
 			(justify right bottom)
 		)
 		(uuid "d1dba99c-3553-4e69-b0c6-1c374c2acd22")
-	)
-	(label "ESP_CS1"
-		(at 59.69 184.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da7e9562-3d25-4766-af73-ac70fc22d438")
 	)
 	(label "GPIO_15"
 		(at 143.51 46.99 180)
@@ -8815,7 +8444,7 @@
 	)
 	(hierarchical_label "ESPCAM_MOSI"
 		(shape output)
-		(at 25.4 140.97 180)
+		(at 41.91 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8839,7 +8468,7 @@
 	)
 	(hierarchical_label "ESPCAM_MISO"
 		(shape input)
-		(at 25.4 143.51 180)
+		(at 41.91 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8863,7 +8492,7 @@
 	)
 	(hierarchical_label "ESPCAM_CS0"
 		(shape input)
-		(at 25.4 138.43 180)
+		(at 41.91 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8875,7 +8504,7 @@
 	)
 	(hierarchical_label "ESPCAM_SCLK"
 		(shape input)
-		(at 25.4 135.89 180)
+		(at 41.91 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8887,7 +8516,7 @@
 	)
 	(hierarchical_label "Handshake"
 		(shape output)
-		(at 35.56 133.35 180)
+		(at 52.07 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9780,209 +9409,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 59.69 138.43 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "3a6b0184-3e95-49bf-a6e6-ce47fc10590d")
-		(property "Reference" "J8"
-			(at 61.595 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5e7e5080-11a8-4408-ac06-48f61dd70d21")
-		)
-		(pin "3"
-			(uuid "e604dff3-45b9-463f-a0cd-6c6310351c36")
-		)
-		(pin "1"
-			(uuid "639566ad-3244-47d9-a042-9878d8667bc7")
-		)
-		(pin "2"
-			(uuid "58f5c568-a2d9-44f2-8483-b2540f4cdc4b")
-		)
-		(pin "6"
-			(uuid "4b78aa54-bb31-4acc-8013-bf57c486c797")
-		)
-		(pin "5"
-			(uuid "4c044395-6a8c-4c8d-9193-12bc49ae9136")
-		)
-		(pin "7"
-			(uuid "6379a156-4ecb-4707-829b-b8934c66b6dc")
-		)
-		(pin "8"
-			(uuid "ed1e1e8e-a749-4f80-a850-0239d6f4ff00")
-		)
-		(instances
-			(project "DeltaRhoRobot"
-				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 273.05 54.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "3dd5ad17-043d-4652-990f-efcf9c8b08c2")
-		(property "Reference" "C18"
-			(at 271.78 57.785 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 271.78 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 273.05 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C307331"
-			(at 273.05 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 273.05 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 273.05 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc573d10-0b50-4160-a7b4-e2284796e0e5")
-		)
-		(pin "2"
-			(uuid "85a5a6dc-c651-4198-a062-4314236645a9")
-		)
-		(instances
-			(project "DeltaRhoRobot"
-				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
 		(at 144.78 181.61 0)
 		(mirror x)
 		(unit 1)
@@ -10699,73 +10125,6 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 278.13 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f9b0ea6-212e-4449-b3d1-84ad0183853e")
-		(property "Reference" "#PWR069"
-			(at 278.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 278.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 278.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9852c114-8dbe-4643-aa1e-81c1fd87325b")
-		)
-		(instances
-			(project "DeltaRhoRobot"
-				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
 		(at 269.24 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11325,7 +10684,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 36.83 146.05 0)
+		(at 53.34 176.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11335,7 +10694,7 @@
 		(fields_autoplaced yes)
 		(uuid "80c4dc69-7e7b-47ee-a059-904626ee47a4")
 		(property "Reference" "#PWR0115"
-			(at 36.83 152.4 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +10703,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 36.83 149.86 0)
+			(at 53.34 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,7 +10712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 146.05 0)
+			(at 53.34 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +10721,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 146.05 0)
+			(at 53.34 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +10730,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 146.05 0)
+			(at 53.34 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +10752,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 48.26 138.43 0)
+		(at 64.77 168.91 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -11401,7 +10760,7 @@
 		(dnp no)
 		(uuid "94ce2266-28e6-4ef5-82e6-124a3db41764")
 		(property "Reference" "J8"
-			(at 46.355 127 0)
+			(at 62.865 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,7 +10769,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 50.8 140.97 0)
+			(at 67.31 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11420,7 +10779,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 48.26 138.43 0)
+			(at 64.77 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11429,7 +10788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 138.43 0)
+			(at 64.77 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +10797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 138.43 0)
+			(at 64.77 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,7 +10806,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" ""
-			(at 48.26 138.43 0)
+			(at 64.77 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,7 +10815,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 48.26 138.43 0)
+			(at 64.77 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +11773,7 @@
 	(symbol
 		(lib_name "+5V_2")
 		(lib_id "power:+5V")
-		(at 17.78 148.59 0)
+		(at 34.29 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12423,7 +11782,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca43bdb7-a8dc-4739-92bc-0de652258373")
 		(property "Reference" "#PWR079"
-			(at 17.78 152.4 0)
+			(at 34.29 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +11791,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 17.78 143.51 0)
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12440,7 +11799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 148.59 0)
+			(at 34.29 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,7 +11808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 148.59 0)
+			(at 34.29 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12458,7 +11817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 17.78 148.59 0)
+			(at 34.29 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,101 +12062,6 @@
 			(project ""
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 273.05 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec126c8b-1abd-4a9b-b914-cd0eba1cb1b6")
-		(property "Reference" "SW4"
-			(at 273.05 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 273.05 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 273.05 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C116501"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e44d5ff3-cd0c-469a-a1b1-5b578b38128f")
-		)
-		(pin "2"
-			(uuid "7a727580-7d99-4377-99da-107d7f7180ee")
-		)
-		(instances
-			(project "DeltaRhoRobot"
-				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -13338,114 +12602,6 @@
 				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
 					(reference "C3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 19.05 166.37)
-		(size 36.83 24.13)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ba807c80-2a51-4f5f-8aa4-02e2ddffef6a")
-		(property "Sheetname" "ESP32CAM"
-			(at 19.05 165.6584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ESP32CAM.kicad_sch"
-			(at 19.05 191.7196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ESPCAM_MISO" input
-			(at 55.88 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d18625cf-e9cd-42eb-9cde-19f988fc4730")
-		)
-		(pin "ESPCAM_MOSI" output
-			(at 55.88 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "39d366e8-d702-4c25-b33c-09fb00638568")
-		)
-		(pin "ESPCAM_CS0" input
-			(at 55.88 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e1aca1e3-3faa-446f-b319-3df4428d6f39")
-		)
-		(pin "ESPCAM_SCLK" input
-			(at 55.88 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a65d0217-5712-4835-9909-29e4a4337296")
-		)
-		(pin "Handshake" output
-			(at 55.88 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f2aa6602-bc70-499d-8e9a-8e91f5d9abae")
-		)
-		(pin "USB_TX" input
-			(at 55.88 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cb182923-df60-40bb-8294-5b5e9337e8fb")
-		)
-		(pin "USB_RX" output
-			(at 55.88 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4a2b3696-656d-4121-8962-d5cf5702839f")
-		)
-		(instances
-			(project "DeltaRhoRobot"
-				(path "/cced1a6d-3dc4-42b2-93bd-998a7b4cf4e8/5eb80655-957d-4a1c-8d7d-b2e173715026"
-					(page "5")
 				)
 			)
 		)
