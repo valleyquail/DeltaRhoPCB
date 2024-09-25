@@ -6692,7 +6692,7 @@
 		)
 		(uuid "fcd07fcd-1107-4a6c-95de-165a3875ab43")
 	)
-	(global_label "Pico_SCL1"
+	(global_label "Pico_SCL0"
 		(shape input)
 		(at 243.84 160.02 0)
 		(fields_autoplaced yes)
@@ -6714,7 +6714,7 @@
 			)
 		)
 	)
-	(global_label "Pico_SDA1"
+	(global_label "Pico_SDA0"
 		(shape input)
 		(at 218.44 160.02 180)
 		(fields_autoplaced yes)
